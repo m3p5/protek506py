@@ -15,7 +15,7 @@ This Python program logs data from the Protek 506 DMM via its RS-232 interface (
 * Attempts to auto-detect the USB-to-serial adapter connected to the Protek 506 DMM
 * Upin detection, starts polling, displaying, and logging the readings
 * Optional command-line options to:
-  * Manually serial port override (e.g., COM3, /dev/ttyUSB0)
+  * Manually override serial port (e.g., COM3, /dev/ttyUSB0)
   * Change output filename (default: Protek-506-log.txt)
   * Change polling interval in seconds (default: 0.2)
   * Show program's version number and then exit
