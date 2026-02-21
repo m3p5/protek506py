@@ -1,4 +1,4 @@
-# Protek 506 Digital Multimeter Data Logger
+# Protek 506 Digital Multimeter Data Logger - Python
 
 ## This is a cross-platform (macOS, Linux, Windows) Python program to read, display, and log data from a Protek 506 Digital Multimeter (DMM).
 
