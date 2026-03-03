@@ -1,6 +1,6 @@
 # Protek 506 Digital Multimeter Data Logger - Python
 
-## This is a cross-platform (macOS, Linux, Windows) Python program to read, display, and log data from a Protek 506 Digital Multimeter (DMM).
+## This is a cross-platform (macOS, Linux, Windows) Python program to read, display, and log data from a Protek 506 Digital Multimeter (DMM)
 
 ![Protek 506](./References/protek_506.jpg)
 
@@ -10,18 +10,18 @@ This Python program logs data from the Protek 506 DMM via its RS-232 interface (
 
 ## Key Features
 
-* Attempts to auto-detect the USB-to-serial adapter connected to the Protek 506 DMM
-* Upon detection, starts polling, displaying, and logging the readings
-* Optional command-line options to:
-  * Manually override serial port (e.g., COM3, /dev/ttyUSB0)
-  * Change output filename (default: Protek-506-log.txt)
-  * Change polling interval in seconds (default: 0.2)
-  * Show program's version number and then exit
-* Robust parsing tuned to real output (preserves leading zeros, handles OL/OPEN/SHORT,
+- Attempts to auto-detect the USB-to-serial adapter connected to the Protek 506 DMM
+- Upon detection, starts polling, displaying, and logging the readings
+- Optional command-line options to:
+  - Manually override serial port (e.g., COM3, /dev/ttyUSB0)
+  - Change output filename (default: Protek-506-log.txt)
+  - Change polling interval in seconds (default: 0.2)
+  - Show program's version number and then exit
+- Robust parsing tuned to real output (preserves leading zeros, handles OL/OPEN/SHORT,
   logic level High/Low/----, overload variants)
-* CSV with header added only on new/empty file
-* Columns: date, time, mode (short), reading, units
+- CSV with header added only on new/empty file
+- Columns: date, time, mode (short), reading, units
 
 ## Current Release
 
-* Initial Stable Release v1.0.0
+- Initial Stable Release v1.0.0
